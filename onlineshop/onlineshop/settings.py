@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'home',
     'user_auth',
+    'file_uploader',
+    'pagination',
 ]
 
 MIDDLEWARE = [
