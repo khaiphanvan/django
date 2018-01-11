@@ -201,3 +201,6 @@ class DjangoSession(models.Model):
     class Meta:
         managed = False
         db_table = 'django_session'
+
+class Musician(models.Model):
+    first_name = models.CharField(max_length=50)
