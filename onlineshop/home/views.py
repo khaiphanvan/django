@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from home.models import *
+from onlineshop.home.models import *
 # Create your views here.
 def index(request):
     cateParent = Category.objects.filter(cate_parent_id=0)
